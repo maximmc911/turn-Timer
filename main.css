@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;  /* это превратит значение 16px*0.625=10px */
+}
+
+body{
+    font-size: 1.6rem; /*вернет значение к 16px для браузеров */
+}
+.cointeiner{
+    max-width: 110rem;
+    max-height: 90rem;
+}
+.check_time{
+    background: rgb(66,144,13);
+    background: linear-gradient(90deg, rgba(66,144,13,1) 0%, rgba(21,149,141,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.time_min, .time_sec{
+    width: 50rem;
+    height: 50rem;
+    background-color: greenyellow;
+    opacity: 0.2;
+}
+p{
+    font-size: 50rem;
+    text-align: center;
+    font-weight: 900;
+    opacity: 1;
+}
