@@ -4,16 +4,18 @@ let sec = document.querySelector(`.sec`);
 let sec1 = 60;
 let min1 = 3; 
  min.innerHTML =`0${min1}`;
-for (let index = 0; index < 60; index++) {
+for (let index = 0; index < 3; index++) {
         
     function turnMin() {
-        if (min1<0) {
+        if (min1==0) {
             return min1 =3;
             
         } else {
                 min1--;
                 min.innerHTML =`0${min1}`;            
-            } 
+                
+            }
+            
         };
             };
             
@@ -23,7 +25,7 @@ setInterval(turnMin, 60000);
 
 
 
-    for (let index = 0; index < 60; index++) {
+    for (let index = 0; index < 59; index++) {
         
         function turnSec() {
             if (sec1<1) {
