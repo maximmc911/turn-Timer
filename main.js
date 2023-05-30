@@ -7,7 +7,7 @@ let min1 = 3;
 for (let index = 0; index < 60; index++) {
         
     function turnMin() {
-        if (min1<1) {
+        if (min1<0) {
             return min1 =3;
             
         } else {
