@@ -2,33 +2,7 @@ let min = document.querySelector(`.min`);
 let sec = document.querySelector(`.sec`);
     
 let sec1 = 60;
-let min1 = 3;
-/*
-
-min.innerHTML =`0${min1}`;
-for (let index = 0; index < 3; index++) {
-    function turnMin() {
-        if (min1<-1) {
-            min1--;
-            min.innerHTML =`0${min1}`;            
-            console.log(min1);
-            
-        };
-        x++;
-        };
-};
-    setInterval(turnMin, 6000);
-for (let index = 0; index < 3; index++) {
-    
-    
-} 
-function click() {
-    
-}
-click()
-/* 
-setInterval(click, 1000)
-  */   
+let min1 = 3; 
  min.innerHTML =`0${min1}`;
 for (let index = 0; index < 60; index++) {
         
